@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .img-container {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .img-container img {
+      height: 280px;
+      width: 150px;
+      border-radius: 5px;
+  }
+
+  .img-container img:hover {
+      border: 3px solid black;
+  }
+  .heading h1 {
+      text-align: center;
+      color: #343f56;
+      font-size: 40px;
+      border-bottom: 2px solid #343f56;
+      display: inline;
+      position: relative;
+      left: 40%;
+  }
+  body{
+    background-color: #d8e3e7;
+  }
